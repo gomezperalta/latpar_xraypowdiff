@@ -1,6 +1,6 @@
 # latpar_xraypowdiff
 
-This repository serves as electronic resource of the paper "Convolutional Neural Networks to assist the assessment of the lattice parameter from X-ray powder diffraction", which is currently under review. The manuscript under review is authored by Juan Ivan Gomez-Peralta*, Patricia Quintana-Owen, and Xim Bokhimi.
+This repository serves as electronic resource of the paper "Convolutional Neural Networks to assist the assessment of the lattice parameter from X-ray powder diffraction", which is currently under review. The manuscript under review is authored by Juan Ivan Gomez-Peralta*, Xim Bokhimi*, and Patricia Quintana-Owen.
 
 This repository is organized in three directories:
 
