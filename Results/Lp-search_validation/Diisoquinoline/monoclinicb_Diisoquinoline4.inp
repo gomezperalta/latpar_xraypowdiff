@@ -1,0 +1,58 @@
+r_wp  10.0
+
+xdd Diisoquinoline.raw
+Difractometro()
+
+
+bkg @ -129.760898`  309.835944` -129.05691`  37.7955405` -11.7016319`
+  	One_on_X(@, 7148.80470`)
+x_calculation_step 0.02043
+
+'Specimen is outside of diffraction plane	
+   Specimen_Displacement(@,-0.08862`)
+
+iters 500
+continue_after_convergence
+'Definition of the crystal structure
+hkl_Is
+  lp_search 1
+  phase_name  "Diisoquinoline"
+  space_group "3"
+		
+  a  @ 22.8526 min = 19.7162; max = 25.989;
+  b  @ 16.8636 min = 14.7094; max = 19.0178;
+  c  @ 9.4402 min = 7.89; max = 10.9904;
+  
+  be  @ 90 min = 60; max = 120;
+  
+  MVW( 0.000, 3638.0 min = 3048.0; max = 4228.0;, 0.000)
+      TCHZ_Peak_Type(@, 1.37986`, @,-0.43050`, @, 0.02661`,, 0, @, 0.17400`,, 0)
+      
+macro Difractometro()
+{                                                         
+ 'x_calculation_step 0.01
+lam 
+	 ymin_on_ymax 0.00001                                                     
+                  la  0.579  lo  1.5405902 lh  0.4374157
+                  la  0.080  lo  1.5410632 lh  0.6432140
+                  la  0.236  lo  1.5443983 lh  0.5128764
+                  la  0.105  lo  1.5446848 lh  0.6872322
+               
+ 
+   Radius(217.5)                                                          
+   LP_Factor(!th2_monochromator, 0)
+ Full_Axial_Model(12, 16, 16, 2.553, 3.113)
+ 	'  12  Axial length of the X-ray source in mm
+	'  16   Axial length of the sample in mm
+	'  16   Axial length of the detector slit in mm
+                         'For the Lynxeye it is the length of the Si strip
+	 ' 2.553 primary_soller_angle   in degrees
+         ' 3.113 secondary_soller_angle 3.113  in degrees
+ 
+ Tube_Tails(!source_width_c, 0.04 , !z1_c,-0.87980, !z2_c, 1.58642, !z1_z2_h_c, 0.00089)
+	        
+	 'Horizontal divergence in the equatorial plane in degrees        
+   Divergence(0.5)
+   Slit_Width(0.075)	 
+ 
+}
