@@ -200,7 +200,7 @@ def model_branch(input_shape = (1,1), conv_arch = list(),
     if len(conv_dropout) == 1: conv_dropout = [conv_dropout[0],]*convs
 
     if len(res_act) == 1: res_act = [res_act[0],]*resblocks
-    if len(res_filters) == 1: res_filters = [res_filters[0],]*resvlocks
+    if len(res_filters) == 1: res_filters = [res_filters[0],]*resblocks
     if len(filter_size) == 1: filter_size = [filter_size[0],]*resblocks
     if len(filter_sc_size) == 1: filter_sc_size = [filter_sc_size[0],]*resblocks
     if len(res_dropout) == 1: res_dropout = [res_dropout[0],]*resblocks
