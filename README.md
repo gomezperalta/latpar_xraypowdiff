@@ -9,6 +9,6 @@ This repository is organized in three directories:
  <li> Results: This directory contains all the files generated after the training of each CNN. You can find the model (h5-file), the compounds in the training (dftraval.csv) and test(dftest.csv) sets, the assessed values by the CNN for the training (*_predtraval.npy) and test sets (*_predtest.npy), the actual values (files ytraval.npy and ytest.npy), and the output file (log-file). </li>
 </ul>
 
-It is important to mention that the input data (simulated xrds and quantitative input vector) are not here due to their size. However, you can check a larger version of that dataset in https://bit.ly/4iivld8 . This larger dataset is consequence of a spin-off of this work. For more details, visit [the repository insightsXRDCNN] (https://github.com/gomezperalta/insightsXRDCNN)
+It is important to mention that the input data (simulated xrds and quantitative input vector) are not here due to their size. However, you can check a larger version of that dataset in https://bit.ly/4iivld8 . This larger dataset is consequence of a spin-off of this work. For more details, visit https://github.com/gomezperalta/insightsXRDCNN.
 
 Additionally, the simulated diffraction patterns were created and processed with the code available in https://github.com/gomezperalta/band-gap_pxrd)
