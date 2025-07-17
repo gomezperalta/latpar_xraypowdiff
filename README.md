@@ -1,6 +1,6 @@
 # latpar_xraypowdiff
 
-This repository serves as electronic resource of the paper "Convolutional Neural Networks to assist the assessment of the lattice parameter from X-ray powder diffraction", which is currently under review. The manuscript under review is authored by Juan Ivan Gomez-Peralta*, Xim Bokhimi*, and Patricia Quintana-Owen.
+This repository serves as electronic resource of the paper "Convolutional Neural Networks to assist the assessment of the lattice parameter from X-ray powder diffraction", which is published in Journal of Physical Chemistry A (DOI: https://doi.dx/10.1021/acs.jpca.3c03860)
 
 This repository is organized in three directories:
 
@@ -9,6 +9,6 @@ This repository is organized in three directories:
  <li> Results: This directory contains all the files generated after the training of each CNN. You can find the model (h5-file), the compounds in the training (dftraval.csv) and test(dftest.csv) sets, the assessed values by the CNN for the training (*_predtraval.npy) and test sets (*_predtest.npy), the actual values (files ytraval.npy and ytest.npy), and the output file (log-file). </li>
 </ul>
 
-It is important to mention that the input data (simulated xrds and quantitative input vector) are not here due to their size. If you want to have access to them, please contact the corresponding author.
+It is important to mention that the input data (simulated xrds and quantitative input vector) are not here due to their size. However, you can check a larger version of that dataset in https://bit.ly/4iivld8 . This larger dataset is consequence of a spin-off of this work. For more details, visit [the repository insightsXRDCNN] (https://github.com/gomezperalta/insightsXRDCNN)
 
-Additionally, the simulated diffraction patterns were created and processed with the code available in https://github.com/gomezperalta/band-gap_pxrd
+Additionally, the simulated diffraction patterns were created and processed with the code available in https://github.com/gomezperalta/band-gap_pxrd)
