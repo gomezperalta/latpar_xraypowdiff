@@ -1,6 +1,6 @@
 # latpar_xraypowdiff
 
-This repository serves as electronic resource of the paper "Convolutional Neural Networks to assist the assessment of the lattice parameter from X-ray powder diffraction", which is published in Journal of Physical Chemistry A (DOI: https://doi.dx/10.1021/acs.jpca.3c03860)
+This repository serves as electronic resource of the paper "Convolutional Neural Networks to assist the assessment of the lattice parameter from X-ray powder diffraction", which is published in Journal of Physical Chemistry A (DOI: https://dx.doi.org/10.1021/acs.jpca.3c03860)
 
 This repository is organized in three directories:
 
